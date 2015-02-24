@@ -1,8 +1,8 @@
 language: cpp
 sudo: false
 script: mkdir build && cd build && cmake .. && make && cd ..
-skip_cleanup: true
 deploy:
+  skip_cleanup: true
   provider: releases
   api_key:
     secure: ZJLYGXrM+9E/LJc22rmtiI9bYAAxHyUKNizRK/hZO3Ha1Vj26vu1y2k6xCjf8v8HXifXMxb/B5D3iw/O8V/VzP8xkTVqDO+unGH8w9gaxkZhVngRDnSe6Y4M85NbvOFD173CAEUi6sekbSqzgY6z6C+xUCUNp6tzzKrp4lijT6s=
